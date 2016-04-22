@@ -1,29 +1,43 @@
 import json
 import csv 
+import urllib
 
-f = open('polution.json')
-data = json.load(f)
-f.close()
-data2 = json.dumps(data)
-data3 = json.loads(data2)
+chmu = urllib.urlopen("http://portal.chmi.cz/files/portal/docs/uoco/web_generator/aqindex_cze.json").read()
+data = json.loads(chmu)
+
 import codecs
-fd = codecs.open("document.csv", "a", "utf-8")
-
-for region in data3['States'][0]['Regions']:
+fd = codecs.open("document.csv", "w", "utf-8")
+#Add header
+pollution = 'Name,Lon,Lat,Color,Alarm,DetailAlarm,Code,Int,Val'
+fd.write(pollution + "\n")
+for region in data['States'][0]['Regions']:
     for station in region['Stations']:
         if 'Components' in station.keys():
-            for component in station['Components']:
+            pollutionline = []
+            for component in station['Components']:                
                 Name = station['Name']
-                #print station
-                Lon = station['Lon']
-                Lat = station['Lat']
+                Lon = str(station['Lon'])
+                Lat = str(station['Lat'])
                 Alarm = station['Ix']
-                DetailAlarm = component['Ix']
-                Code = component['Code']
-                Int = component['Int']
+                if Alarm == 1:
+                    Alarmcolor = 'C7EAFB'
+                elif Alarm == 2:
+                    Alarmcolor = '9BD3AE'
+                elif Alarm == 3:
+                    Alarmcolor = 'FFF200'
+                elif Alarm == 4:
+                    Alarmcolor = 'FAA61A'
+                elif Alarm == 5:
+                    Alarmcolor = 'FFFFFF'
+                elif Alarm == 0:
+                    Alarmcolor = '000000'
+                DetailAlarm = str(component['Ix'])
+                Code = str(component['Code'])
+                Int = str(component['Int'])
                 if 'Val' in component.keys():
-                    Val = component['Val']
-                fd.write(Name)
+                    Val = str(component['Val'])              
+                pollution = Name + ',' + Lon + ',' + Lat + ',' + Alarmcolor + ',' + str(Alarm)+ ',' + DetailAlarm + ',' + Code + ' ' + Int + ',' + Val
+                fd.write(pollution + "\n")
 
 fd.close()
                     
