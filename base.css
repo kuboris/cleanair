@@ -17,7 +17,7 @@ p {
 }
 
 .point-cell:hover, .point-cell.selected {
-  fill: none;
+  fill-opacity: 0.5;
   stroke: #000;
   stroke-opacity: .6;
   stroke-width: 2px;
