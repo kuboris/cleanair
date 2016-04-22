@@ -1,0 +1,106 @@
+States__Regions__Stations__Name,States__Regions__Stations__Owner,States__Regions__Stations__Classif,States__Regions__Stations__Lat,States__Regions__Stations__Lon,States__Regions__Stations__Ix,States__Regions__Stations__Components__Code,States__Regions__Stations__Components__Int,States__Regions__Stations__Components__Val,States__Regions__Stations__Components__Ix,Color
+Praha 8-Karlín,?HMÚ,dopravní,50.094238,14.442049,1,SO2,1h,,-1,C7EAFB
+Praha 8-Karlín,?HMÚ,dopravní,50.094238,14.442049,1,NO2,1h,9.6,1,9BD3AE
+Praha 8-Karlín,?HMÚ,dopravní,50.094238,14.442049,1,CO,8h,,-1,FFF200
+Praha 8-Karlín,?HMÚ,dopravní,50.094238,14.442049,1,PM10,1h,15,1,FAA61A
+Praha 8-Karlín,?HMÚ,dopravní,50.094238,14.442049,1,O3,1h,,-1,ED1C24
+Praha 8-Karlín,?HMÚ,dopravní,50.094238,14.442049,1,PM10,24h,29.6,-2,671F20
+Praha 8-Karlín,?HMÚ,dopravní,50.094238,14.442049,1,PM2_5,1h,,-1,FFFFFF
+Praha 2-Legerova (hot spot),?HMÚ,dopravní,50.072388,14.430673,3,SO2,1h,,-1,CFCFCF
+Praha 2-Legerova (hot spot),?HMÚ,dopravní,50.072388,14.430673,3,NO2,1h,95.1,3,C7EAFB
+Praha 2-Legerova (hot spot),?HMÚ,dopravní,50.072388,14.430673,3,CO,8h,476,1,9BD3AE
+Praha 2-Legerova (hot spot),?HMÚ,dopravní,50.072388,14.430673,3,PM10,1h,17,1,FFF200
+Praha 2-Legerova (hot spot),?HMÚ,dopravní,50.072388,14.430673,3,O3,1h,,-1,FAA61A
+Praha 2-Legerova (hot spot),?HMÚ,dopravní,50.072388,14.430673,3,PM10,24h,27.9,-2,ED1C24
+Praha 2-Legerova (hot spot),?HMÚ,dopravní,50.072388,14.430673,3,PM2_5,1h,7,-2,671F20
+Praha 1-n. Republiky,?HMÚ,m?stská,50.088066,14.42922,2,SO2,1h,,-1,FFFFFF
+Praha 1-n. Republiky,?HMÚ,m?stská,50.088066,14.42922,2,NO2,1h,37.9,2,CFCFCF
+Praha 1-n. Republiky,?HMÚ,m?stská,50.088066,14.42922,2,CO,8h,,-1,C7EAFB
+Praha 1-n. Republiky,?HMÚ,m?stská,50.088066,14.42922,2,PM10,1h,2,1,9BD3AE
+Praha 1-n. Republiky,?HMÚ,m?stská,50.088066,14.42922,2,O3,1h,,-1,FFF201
+Praha 1-n. Republiky,?HMÚ,m?stská,50.088066,14.42922,2,PM10,24h,6.5,-2,FAA61A
+Praha 1-n. Republiky,?HMÚ,m?stská,50.088066,14.42922,2,PM2_5,1h,,-1,ED1C25
+Praha 2-Riegrovy sady,?HMÚ,m?stská,50.081482,14.442692,3,SO2,1h,1.3,1,671F21
+Praha 2-Riegrovy sady,?HMÚ,m?stská,50.081482,14.442692,3,NO2,1h,12.4,1,FFFFFF
+Praha 2-Riegrovy sady,?HMÚ,m?stská,50.081482,14.442692,3,CO,8h,,-1,CFCFCF
+Praha 2-Riegrovy sady,?HMÚ,m?stská,50.081482,14.442692,3,PM10,1h,15,1,C7EAFB
+Praha 2-Riegrovy sady,?HMÚ,m?stská,50.081482,14.442692,3,O3,1h,90.4,3,9BD3AE
+Praha 2-Riegrovy sady,?HMÚ,m?stská,50.081482,14.442692,3,PM10,24h,23.5,-2,FFF202
+Praha 2-Riegrovy sady,?HMÚ,m?stská,50.081482,14.442692,3,PM2_5,1h,5,-2,FAA61A
+Praha 5-Smíchov,?HMÚ,dopravní,50.073135,14.398141,2,SO2,1h,,-1,ED1C26
+Praha 5-Smíchov,?HMÚ,dopravní,50.073135,14.398141,2,NO2,1h,28.5,2,671F22
+Praha 5-Smíchov,?HMÚ,dopravní,50.073135,14.398141,2,CO,8h,,-1,FFFFFF
+Praha 5-Smíchov,?HMÚ,dopravní,50.073135,14.398141,2,PM10,1h,23,2,CFCFCF
+Praha 5-Smíchov,?HMÚ,dopravní,50.073135,14.398141,2,O3,1h,,-1,C7EAFB
+Praha 5-Smíchov,?HMÚ,dopravní,50.073135,14.398141,2,PM10,24h,29.4,-2,9BD3AE
+Praha 5-Smíchov,?HMÚ,dopravní,50.073135,14.398141,2,PM2_5,1h,8,-2,FFF203
+Praha 10-Vršovice,?HMÚ,dopravní,50.066429,14.446152,1,SO2,1h,,-1,FAA61A
+Praha 10-Vršovice,?HMÚ,dopravní,50.066429,14.446152,1,NO2,1h,,-1,ED1C27
+Praha 10-Vršovice,?HMÚ,dopravní,50.066429,14.446152,1,CO,8h,,-1,671F23
+Praha 10-Vršovice,?HMÚ,dopravní,50.066429,14.446152,1,PM10,1h,7,1,FFFFFF
+Praha 10-Vršovice,?HMÚ,dopravní,50.066429,14.446152,1,O3,1h,,-1,CFCFCF
+Praha 10-Vršovice,?HMÚ,dopravní,50.066429,14.446152,1,PM10,24h,29.6,-2,C7EAFB
+Praha 10-Vršovice,?HMÚ,dopravní,50.066429,14.446152,1,PM2_5,1h,,-1,9BD3AE
+Praha 9-Vyso?any,?HMÚ,dopravní,50.11108,14.503096,3,SO2,1h,,-1,FFF204
+Praha 9-Vyso?any,?HMÚ,dopravní,50.11108,14.503096,3,NO2,1h,47.2,2,FAA61A
+Praha 9-Vyso?any,?HMÚ,dopravní,50.11108,14.503096,3,CO,8h,,-1,ED1C28
+Praha 9-Vyso?any,?HMÚ,dopravní,50.11108,14.503096,3,PM10,1h,12,1,671F24
+Praha 9-Vyso?any,?HMÚ,dopravní,50.11108,14.503096,3,O3,1h,69.2,3,FFFFFF
+Praha 9-Vyso?any,?HMÚ,dopravní,50.11108,14.503096,3,PM10,24h,28.8,-2,CFCFCF
+Praha 9-Vyso?any,?HMÚ,dopravní,50.11108,14.503096,3,PM2_5,1h,,-1,C7EAFB
+Praha 4-Braník,?HMÚ,dopravní,50.042004,14.411826,1,SO2,1h,,-1,9BD3AE
+Praha 4-Braník,?HMÚ,dopravní,50.042004,14.411826,1,NO2,1h,17.4,1,FFF205
+Praha 4-Braník,?HMÚ,dopravní,50.042004,14.411826,1,CO,8h,,-1,FAA61A
+Praha 4-Braník,?HMÚ,dopravní,50.042004,14.411826,1,PM10,1h,9,1,ED1C29
+Praha 4-Braník,?HMÚ,dopravní,50.042004,14.411826,1,O3,1h,,-1,671F25
+Praha 4-Braník,?HMÚ,dopravní,50.042004,14.411826,1,PM10,24h,23.1,-2,FFFFFF
+Praha 4-Braník,?HMÚ,dopravní,50.042004,14.411826,1,PM2_5,1h,,-1,CFCFCF
+Praha 8-Kobylisy,?HMÚ,p?edm?stská,50.122189,14.467578,3,SO2,1h,,-1,C7EAFB
+Praha 8-Kobylisy,?HMÚ,p?edm?stská,50.122189,14.467578,3,NO2,1h,1,1,9BD3AE
+Praha 8-Kobylisy,?HMÚ,p?edm?stská,50.122189,14.467578,3,CO,8h,,-1,FFF206
+Praha 8-Kobylisy,?HMÚ,p?edm?stská,50.122189,14.467578,3,PM10,1h,12,1,FAA61A
+Praha 8-Kobylisy,?HMÚ,p?edm?stská,50.122189,14.467578,3,O3,1h,80.8,3,ED1C30
+Praha 8-Kobylisy,?HMÚ,p?edm?stská,50.122189,14.467578,3,PM10,24h,18.9,-2,671F26
+Praha 8-Kobylisy,?HMÚ,p?edm?stská,50.122189,14.467578,3,PM2_5,1h,,-1,FFFFFF
+Praha 4-Libuš,?HMÚ,p?edm?stská,50.007305,14.445933,0,SO2,1h,3.5,1,CFCFCF
+Praha 4-Libuš,?HMÚ,p?edm?stská,50.007305,14.445933,0,NO2,1h,8.2,1,C7EAFB
+Praha 4-Libuš,?HMÚ,p?edm?stská,50.007305,14.445933,0,CO,8h,242,1,9BD3AE
+Praha 4-Libuš,?HMÚ,p?edm?stská,50.007305,14.445933,0,PM10,1h,1,1,FFF207
+Praha 4-Libuš,?HMÚ,p?edm?stská,50.007305,14.445933,0,O3,1h,,0,FAA61A
+Praha 4-Libuš,?HMÚ,p?edm?stská,50.007305,14.445933,0,PM10,24h,25.4,-2,ED1C31
+Praha 4-Libuš,?HMÚ,p?edm?stská,50.007305,14.445933,0,PM2_5,1h,1,-2,671F27
+Praha 5-Stod?lky,?HMÚ,m?stská,50.046131,14.331413,3,SO2,1h,,-1,FFFFFF
+Praha 5-Stod?lky,?HMÚ,m?stská,50.046131,14.331413,3,NO2,1h,,-1,CFCFCF
+Praha 5-Stod?lky,?HMÚ,m?stská,50.046131,14.331413,3,CO,8h,,-1,C7EAFB
+Praha 5-Stod?lky,?HMÚ,m?stská,50.046131,14.331413,3,PM10,1h,11,1,9BD3AE
+Praha 5-Stod?lky,?HMÚ,m?stská,50.046131,14.331413,3,O3,1h,99.2,3,FFF208
+Praha 5-Stod?lky,?HMÚ,m?stská,50.046131,14.331413,3,PM10,24h,19.3,-2,FAA61A
+Praha 5-Stod?lky,?HMÚ,m?stská,50.046131,14.331413,3,PM2_5,1h,10,-2,ED1C32
+Praha 6-Suchdol,?HMÚ,p?edm?stská,50.12653,14.384639,3,SO2,1h,,-1,671F28
+Praha 6-Suchdol,?HMÚ,p?edm?stská,50.12653,14.384639,3,NO2,1h,,-1,FFFFFF
+Praha 6-Suchdol,?HMÚ,p?edm?stská,50.12653,14.384639,3,CO,8h,,-1,CFCFCF
+Praha 6-Suchdol,?HMÚ,p?edm?stská,50.12653,14.384639,3,PM10,1h,9,1,C7EAFB
+Praha 6-Suchdol,?HMÚ,p?edm?stská,50.12653,14.384639,3,O3,1h,100.3,3,9BD3AE
+Praha 6-Suchdol,?HMÚ,p?edm?stská,50.12653,14.384639,3,PM10,24h,20.5,-2,FFF209
+Praha 6-Suchdol,?HMÚ,p?edm?stská,50.12653,14.384639,3,PM2_5,1h,,-1,FAA61A
+Praha 6-B?evnov,?HMÚ,m?stská,50.084385,14.380116,1,SO2,1h,,-1,ED1C33
+Praha 6-B?evnov,?HMÚ,m?stská,50.084385,14.380116,1,NO2,1h,21.2,1,671F29
+Praha 6-B?evnov,?HMÚ,m?stská,50.084385,14.380116,1,CO,8h,,-1,FFFFFF
+Praha 6-B?evnov,?HMÚ,m?stská,50.084385,14.380116,1,PM10,1h,12,1,CFCFCF
+Praha 6-B?evnov,?HMÚ,m?stská,50.084385,14.380116,1,O3,1h,,-1,C7EAFB
+Praha 6-B?evnov,?HMÚ,m?stská,50.084385,14.380116,1,PM10,24h,19.5,-2,9BD3AE
+Praha 6-B?evnov,?HMÚ,m?stská,50.084385,14.380116,1,PM2_5,1h,,-1,FFF210
+Praha 4-Chodov,?HMÚ,m?stská,50.03017,14.51745,2,SO2,1h,,-1,FAA61A
+Praha 4-Chodov,?HMÚ,m?stská,50.03017,14.51745,2,NO2,1h,12.2,1,ED1C34
+Praha 4-Chodov,?HMÚ,m?stská,50.03017,14.51745,2,CO,8h,,-1,671F30
+Praha 4-Chodov,?HMÚ,m?stská,50.03017,14.51745,2,PM10,1h,29,2,FFFFFF
+Praha 4-Chodov,?HMÚ,m?stská,50.03017,14.51745,2,O3,1h,,-1,CFCFCF
+Praha 4-Chodov,?HMÚ,m?stská,50.03017,14.51745,2,PM10,24h,,-2,C7EAFB
+Praha 4-Chodov,?HMÚ,m?stská,50.03017,14.51745,2,PM2_5,1h,,-1,9BD3AE
+Praha 10-Pr?myslová,?HMÚ,dopravní,50.062298,14.53782,0,SO2,1h,,-1,FFF211
+Praha 10-Pr?myslová,?HMÚ,dopravní,50.062298,14.53782,0,NO2,1h,,0,FAA61A
+Praha 10-Pr?myslová,?HMÚ,dopravní,50.062298,14.53782,0,CO,8h,,-1,ED1C35
+Praha 10-Pr?myslová,?HMÚ,dopravní,50.062298,14.53782,0,PM10,1h,25,2,671F31
+Praha 10-Pr?myslová,?HMÚ,dopravní,50.062298,14.53782,0,O3,1h,,-1,FFFFFF
+Praha 10-Pr?myslová,?HMÚ,dopravní,50.062298,14.53782,0,PM10,24h,32.4,-2,CFCFCF
+Praha 10-Pr?myslová,?HMÚ,dopravní,50.062298,14.53782,0,PM2_5,1h,,-1,C7EAFB
