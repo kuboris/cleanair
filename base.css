@@ -11,19 +11,21 @@ p {
 
 .point-cell {
   fill: none;
+  fill-opacity: 0.5;
   pointer-events: all;
   stroke: #000;
   stroke-opacity: .2;
 }
 
 .point-cell:hover, .point-cell.selected {
-  fill-opacity: 0.5;
+  fill-opacity: 0.2;
   stroke: #000;
   stroke-opacity: .6;
   stroke-width: 2px;
 }
 
 .point-cell.selected {
+  fill-opacity: 0.2;
   stroke-opacity: 1;
   stroke-width: 3px;
 }
