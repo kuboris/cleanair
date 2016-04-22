@@ -33,7 +33,7 @@ voronoiMap = function(map, url, initialSelections) {
     d3.select('#selected h1')
       .html('')
       .append('a')
-        .text(point.States__Regions__Stations__Name)
+        .text('</b></p>' + point.States__Regions__Stations__Name + '</b></p>')
         .attr('href', point.States__Regions__Stations__Name)
         .attr('target', '_blank')
   }
