@@ -136,9 +136,9 @@ voronoiMap = function(map, url, initialSelections) {
 
     svgPoints.append("path")
       .attr("class", "point-cell")
+      .style('fill', function(d) { return '#' + d.Color; })
       .attr("d", buildPathFromPoint)
       .on('click', selectPoint)
-      .style('background-color', function(d) { return '#' + d.Color; })
       .classed("selected", function(d) { return lastSelectedPoint == d} );
 
     svgPoints.append("circle")
