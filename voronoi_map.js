@@ -33,8 +33,8 @@ voronoiMap = function(map, url, initialSelections) {
     d3.select('#selected h1')
       .html('')
       .append('a')
-        .text(point.name)
-        .attr('href', point.url)
+        .text(point.States__Regions__Stations__Name)
+        .attr('href', point.States__Regions__Stations__Name)
         .attr('target', '_blank')
   }
 
@@ -96,7 +96,7 @@ voronoiMap = function(map, url, initialSelections) {
         drawLimit = bounds.pad(0.4);
 
     filteredPoints = pointsFilteredToSelectedTypes().filter(function(d) {
-      var latlng = new L.LatLng(d.latitude, d.longitude);
+      var latlng = new L.LatLng(d.States__Regions__Stations__Lat, d.States__Regions__Stations__Lon);
 
       if (!drawLimit.contains(latlng)) { return false };
 
