@@ -54,7 +54,7 @@ voronoiMap = function(map, url, initialSelections) {
 
     labels.append("span")
       .attr('class', 'key')
-      .style('background-color', function(d) { return '#' + d.color; });
+      .style('background-color', function(d) { return '#' + d.Color; });
 
     labels.append("span")
       .text(function(d) { return d.type; });
@@ -142,7 +142,7 @@ voronoiMap = function(map, url, initialSelections) {
 
     svgPoints.append("circle")
       .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
-      .style('fill', function(d) { return '#' + d.color } )
+      .style('fill', function(d) { return '#' + d.Color } )
       .attr("r", 2);
   }
 
@@ -159,7 +159,7 @@ voronoiMap = function(map, url, initialSelections) {
     d3.csv(url, function(csv) {
       points = csv;
       points.forEach(function(point) {
-        pointTypes.set(point.type, {type: point.type, color: point.color});
+        pointTypes.set(point.type, {type: point.type, Color: point.Color});
       })
       drawPointTypeSelection();
       map.addLayer(mapLayer);
