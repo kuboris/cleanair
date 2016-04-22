@@ -138,12 +138,12 @@ voronoiMap = function(map, url, initialSelections) {
       .attr("class", "point-cell")
       .attr("d", buildPathFromPoint)
       .on('click', selectPoint)
+      .style('background-color', function(d) { return '#' + d.Color; })
       .classed("selected", function(d) { return lastSelectedPoint == d} );
 
     svgPoints.append("circle")
       .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
       .style('fill', function(d) { return '#' + d.Color } )
-      .style('background-color', function(d) { return '#' + d.Color; })
       .attr("r", 2);
   }
 
