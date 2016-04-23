@@ -34,7 +34,7 @@ voronoiMap = function(map, url, initialSelections) {
       .html('')
       .append('a')
         .text(point.States__Regions__Stations__Name)
-        .attr('href', point.States__Regions__Stations__Name)
+        .attr('href', 'http://kuboris.github.io/cleanair/notification.html')
         .attr('target', '_blank')
   }
 
