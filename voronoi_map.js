@@ -33,7 +33,7 @@ voronoiMap = function(map, url, initialSelections) {
     d3.select('#selected h1')
       .html('')
       .append('a')
-        .text(point.States__Regions__Stations__Name + ' ' + point.type + ': ' point.Val + ' µg/m³')
+        .text(point.States__Regions__Stations__Name + ' ' + point.type + ': ' + point.Val + ' µg/m³')
         .attr('href', 'http://kuboris.github.io/cleanair/notification.html')
         .attr('target', '_blank')
   }
