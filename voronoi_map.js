@@ -36,9 +36,6 @@ voronoiMap = function(map, url, initialSelections) {
         .text(point.States__Regions__Stations__Name)
         .attr('href', point.States__Regions__Stations__Name)
         .attr('target', '_blank')
-      .html('')
-      .append('a')
-        .text(point.States__Regions__Stations__Name)
   }
 
   var drawPointTypeSelection = function() {
